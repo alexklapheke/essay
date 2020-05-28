@@ -1,5 +1,5 @@
-# Don't upload data, as the license doesn't allow for it
-data/
+# Don't upload essay data, as the license doesn't allow for it
+data_private/
 
 # For personal notes, etc.
 misc/
