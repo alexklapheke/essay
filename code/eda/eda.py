@@ -31,6 +31,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def summary(df):
     """Describe the columns of a data frame `df` with
     excerpted values, types, and summary statistics."""
@@ -45,15 +46,23 @@ def summary(df):
 def summary_group(df, col):
     """Describe the columns of a data frame `df`, grouped by column
     `col` with excerpted values, types, and summary statistics."""
+    dfg = df.groupby(col)
     return pd.concat([
-            df.groupby(col).first().T.add_prefix("head_"),
-            df.groupby(col).dtypes.T.add_prefix("type_"),
-            df.groupby(col).apply(lambda x: x.isna().sum()).T.add_prefix("nulls_"),
+            dfg.first().T.add_prefix("head_"),
+            dfg.dtypes.T.add_prefix("type_"),
+            dfg.apply(lambda x: x.isna().sum()).T.add_prefix("nulls_"),
         ], axis=1)
+
+
+def _norm(m, s, x):
+    """Define the normal distribution"""
+    return np.exp(-(x - m)**2 / (2 * s**2)) / (s * (2 * np.pi)**(1/2))
+
 
 def test_LINE(true, pred):
     """Test LINE assumptions for linear regression. Example usage:
 
+        import numpy as np
         from sklearn.linear_model import LinearRegression
 
         # Generate data
@@ -76,14 +85,11 @@ def test_LINE(true, pred):
     # Define our residuals
     resids = true - pred
 
-    # Define the normal distribution
-    norm = lambda m, s, x: np.exp(-(x-m)**2/(2*s**2))/(s*(2*np.pi)**(1/2))
-
     # Set up bins for graphing normal distribution
     bins = np.arange(
-        start = min(resids),
-        stop = max(resids),
-        step = (max(resids) - min(resids)) / 100
+        start=min(resids),
+        stop=max(resids),
+        step=(max(resids) - min(resids)) / 100
     )
 
     # First test plot
@@ -108,7 +114,7 @@ def test_LINE(true, pred):
     ax.set_title("Is the error [N]ormal?")
     ax.set_xlabel("Residuals")
     ax.hist(resids, density=True)
-    ax.plot(bins, norm(np.mean(resids), np.std(resids), bins), color="red")
+    ax.plot(bins, _norm(np.mean(resids), np.std(resids), bins), color="red")
 
     # Fourth test plot
     ax = fig.add_subplot(2, 2, 4)

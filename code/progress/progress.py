@@ -30,13 +30,14 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 from IPython.display import clear_output
 from time import time
 
+
 def _format_time(seconds):
     """Format an integer representing seconds as a time interval."""
-    string = "{:.0f}:{:02.0f}" if seconds < 3600 else "{:.0f}:{:02.0f}:{:02.0f}"
-    return string.format(
-            (seconds // 3600),      # H
-            (seconds % 3600) // 60, # M
-            seconds % 60            # S
+    s = "{:.0f}:{:02.0f}" if seconds < 3600 else "{:.0f}:{:02.0f}:{:02.0f}"
+    return s.format(
+            (seconds // 3600),       # H
+            (seconds % 3600) // 60,  # M
+            seconds % 60             # S
             )
 
 
@@ -55,10 +56,10 @@ def show_progress(function):
     """
     def wrapper(iterable, update_freq=10):
         # Initialize
-        l = list(iterable)
-        n = len(l)
+        it = list(iterable)
+        n = len(it)
         start = time()
-        for i, item in enumerate(l):
+        for i, item in enumerate(it):
 
             # Compute remaining time
             current = time()
