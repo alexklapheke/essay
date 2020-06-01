@@ -33,12 +33,17 @@ from time import time
 
 def _format_time(seconds):
     """Format an integer representing seconds as a time interval."""
-    s = "{:.0f}:{:02.0f}" if seconds < 3600 else "{:.0f}:{:02.0f}:{:02.0f}"
-    return s.format(
-            (seconds // 3600),       # H
-            (seconds % 3600) // 60,  # M
-            seconds % 60             # S
-            )
+    if seconds < 3600:
+        return "{:.0f}:{:02.0f}".format(
+                seconds // 60,  # M
+                seconds % 60    # S
+                )
+    else:
+        return "{:.0f}:{:02.0f}:{:02.0f}".format(
+                (seconds // 3600),       # H
+                (seconds % 3600) // 60,  # M
+                seconds % 60             # S
+                )
 
 
 def show_progress(function):
