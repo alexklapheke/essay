@@ -31,7 +31,7 @@ from IPython.display import clear_output
 from time import time
 
 
-def _format_time(seconds):
+def _fmt_time(seconds):
     """Format an integer representing seconds as a time interval."""
     if seconds < 3600:
         return "{:.0f}:{:02.0f}".format(
@@ -46,20 +46,39 @@ def _format_time(seconds):
                 )
 
 
+def _prog_bar(prog, width=30):
+    """Show progress bar for progress `prog` between 0 and 1."""
+    assert 0 <= prog <= 1, "Illegal value passed."
+    bars = round(prog * width)
+    return "[" + \
+           "=" * bars + \
+           ">" + \
+           " " * (width - bars) + \
+           "] " + \
+           f"{int(prog * 100)}%"
+
+
 def show_progress(function):
-    """Shows progress of a loop run in an iPython environment, such as
-       a Jupyter notebook. Say you are mapping a function my_fun over
-       a list called my_list. Define a function:
+    """Shows progress of a loop run in an iPython environment, such as a
+       Jupyter notebook. Say you are mapping a function `do_stuff_to` over
+       a list called `my_list`. Define a function:
 
            @show_progress
            def my_fun(i, item):
                ... do_stuff_to(item) ...
 
-       where item is the item and i is its index in the list. Then run:
+       where `item` is a list item and `i` is its index. Then run:
 
            my_fun(my_list)
+
+       You will see a running update of the progress of the function.
+       You can modify the display by passing options to `my_fun`:
+
+           update_freq: How many items are processed before the timer updates.
+           progress_bar_width: The width of the progress bar in "equals signs".
+                               Pass 0 to disable the progress bar altogether.
     """
-    def wrapper(iterable, update_freq=10):
+    def progress_wrapper(iterable, update_freq=10, progress_bar_width=30):
         # Initialize
         it = list(iterable)
         n = len(it)
@@ -73,8 +92,10 @@ def show_progress(function):
 
             # Show progress
             clear_output(wait=True)
-            print(f"Parsing item {i} of {n} ({int(100*i/n)}%), " +
-                  f"{_format_time(remaining)} remains...")
+            prog = _prog_bar(i/n, width=progress_bar_width) \
+                if progress_bar_width else f"({int(100*i/n)}%)"
+            print("Parsing item {:,} of {:,} {}, ".format(i+1, n, prog) +
+                  "{} remains...".format(_fmt_time(remaining)))
 
             # Run function
             function(i, item)
@@ -84,6 +105,6 @@ def show_progress(function):
 
         # Show completion
         clear_output(wait=True)
-        print(f"Done! Parsed {n} items in {_format_time(elapsed)}.")
+        print("Done! Parsed {:,} items in {}.".format(n, _fmt_time(elapsed)))
 
-    return wrapper
+    return progress_wrapper
