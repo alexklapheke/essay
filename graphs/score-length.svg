@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with matplotlib (https://matplotlib.org/) -->
-<svg height="221.849687pt" version="1.1" viewBox="0 0 268.145625 221.849687" width="268.145625pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="204.569687pt" version="1.1" viewBox="0 0 268.145625 204.569687" width="268.145625pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
 *{stroke-linecap:butt;stroke-linejoin:round;}
@@ -10,8 +10,8 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 221.849687 
-L 268.145625 221.849687 
+   <path d="M 0 204.569687 
+L 268.145625 204.569687 
 L 268.145625 0 
 L 0 0 
 z
@@ -19,10 +19,10 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 30.545625 186.48 
-L 260.945625 186.48 
-L 260.945625 24.48 
-L 30.545625 24.48 
+    <path d="M 30.545625 169.2 
+L 260.945625 169.2 
+L 260.945625 7.2 
+L 30.545625 7.2 
 z
 " style="fill:none;"/>
    </g>
@@ -49,7 +49,7 @@ C 3.90625 12.703125 10.40625 -1 22.796875 -1
 z
 " id="LinBiolinumO-48"/>
       </defs>
-      <g style="fill:#808080;" transform="translate(37.576261 196.959688)scale(0.1 -0.1)">
+      <g style="fill:#808080;" transform="translate(37.576261 179.679688)scale(0.1 -0.1)">
        <use xlink:href="#LinBiolinumO-48"/>
       </g>
      </g>
@@ -77,7 +77,7 @@ C 32.796875 6 32.59375 11 32.59375 18.90625
 z
 " id="LinBiolinumO-49"/>
       </defs>
-      <g style="fill:#808080;" transform="translate(88.780807 196.959688)scale(0.1 -0.1)">
+      <g style="fill:#808080;" transform="translate(88.780807 179.679688)scale(0.1 -0.1)">
        <use xlink:href="#LinBiolinumO-49"/>
        <use x="46.499985" xlink:href="#LinBiolinumO-48"/>
        <use x="92.999969" xlink:href="#LinBiolinumO-48"/>
@@ -114,7 +114,7 @@ C 16.5 54.59375 19.40625 55.296875 22.203125 55.296875
 z
 " id="LinBiolinumO-50"/>
       </defs>
-      <g style="fill:#808080;" transform="translate(144.635352 196.959688)scale(0.1 -0.1)">
+      <g style="fill:#808080;" transform="translate(144.635352 179.679688)scale(0.1 -0.1)">
        <use xlink:href="#LinBiolinumO-50"/>
        <use x="46.499985" xlink:href="#LinBiolinumO-48"/>
        <use x="92.999969" xlink:href="#LinBiolinumO-48"/>
@@ -154,7 +154,7 @@ C 34 5.09375 24.5 2.90625 20.90625 2.90625
 z
 " id="LinBiolinumO-51"/>
       </defs>
-      <g style="fill:#808080;" transform="translate(200.489898 196.959688)scale(0.1 -0.1)">
+      <g style="fill:#808080;" transform="translate(200.489898 179.679688)scale(0.1 -0.1)">
        <use xlink:href="#LinBiolinumO-51"/>
        <use x="46.499985" xlink:href="#LinBiolinumO-48"/>
        <use x="92.999969" xlink:href="#LinBiolinumO-48"/>
@@ -456,7 +456,7 @@ C 16.296875 -10.09375 25.59375 6.59375 25.59375 25.203125
 z
 " id="LinBiolinumO-41"/>
      </defs>
-     <g style="fill:#808080;" transform="translate(108.256875 211.805312)scale(0.12 -0.12)">
+     <g style="fill:#808080;" transform="translate(108.256875 194.525312)scale(0.12 -0.12)">
       <use xlink:href="#LinBiolinumO-76"/>
       <use x="51.499985" xlink:href="#LinBiolinumO-101"/>
       <use x="96.799973" xlink:href="#LinBiolinumO-110"/>
@@ -479,7 +479,7 @@ z
      <g id="line2d_5"/>
      <g id="text_6">
       <!-- 0 -->
-      <g style="fill:#808080;" transform="translate(22.395625 169.719844)scale(0.1 -0.1)">
+      <g style="fill:#808080;" transform="translate(22.395625 152.439844)scale(0.1 -0.1)">
        <use xlink:href="#LinBiolinumO-48"/>
       </g>
      </g>
@@ -488,7 +488,7 @@ z
      <g id="line2d_6"/>
      <g id="text_7">
       <!-- 1 -->
-      <g style="fill:#808080;" transform="translate(22.395625 129.219844)scale(0.1 -0.1)">
+      <g style="fill:#808080;" transform="translate(22.395625 111.939844)scale(0.1 -0.1)">
        <use xlink:href="#LinBiolinumO-49"/>
       </g>
      </g>
@@ -497,7 +497,7 @@ z
      <g id="line2d_7"/>
      <g id="text_8">
       <!-- 2 -->
-      <g style="fill:#808080;" transform="translate(22.395625 88.719844)scale(0.1 -0.1)">
+      <g style="fill:#808080;" transform="translate(22.395625 71.439844)scale(0.1 -0.1)">
        <use xlink:href="#LinBiolinumO-50"/>
       </g>
      </g>
@@ -506,7 +506,7 @@ z
      <g id="line2d_8"/>
      <g id="text_9">
       <!-- 3 -->
-      <g style="fill:#808080;" transform="translate(22.395625 48.219844)scale(0.1 -0.1)">
+      <g style="fill:#808080;" transform="translate(22.395625 30.939844)scale(0.1 -0.1)">
        <use xlink:href="#LinBiolinumO-51"/>
       </g>
      </g>
@@ -554,7 +554,7 @@ C 12.59375 33.296875 18.40625 39.90625 25 39.90625
 z
 " id="LinBiolinumO-99"/>
      </defs>
-     <g style="fill:#808080;" transform="translate(15.575625 118.937812)rotate(-90)scale(0.12 -0.12)">
+     <g style="fill:#808080;" transform="translate(15.575625 101.657812)rotate(-90)scale(0.12 -0.12)">
       <use xlink:href="#LinBiolinumO-83"/>
       <use x="50.599991" xlink:href="#LinBiolinumO-99"/>
       <use x="93.499985" xlink:href="#LinBiolinumO-111"/>
@@ -564,310 +564,146 @@ z
     </g>
    </g>
    <g id="line2d_9">
-    <path clip-path="url(#p4c46eca9b5)" d="M 56.657625 175.3425 
-L 56.657625 157.1175 
-L 75.64817 157.1175 
-L 75.64817 175.3425 
-L 56.657625 175.3425 
+    <path clip-path="url(#pcda4d30328)" d="M 56.657625 158.0625 
+L 56.657625 139.8375 
+L 75.64817 139.8375 
+L 75.64817 158.0625 
+L 56.657625 158.0625 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_10">
-    <path clip-path="url(#p4c46eca9b5)" d="M 56.657625 166.23 
-L 43.252534 166.23 
+    <path clip-path="url(#pcda4d30328)" d="M 56.657625 148.95 
+L 43.252534 148.95 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_11">
-    <path clip-path="url(#p4c46eca9b5)" d="M 75.64817 166.23 
-L 146.583443 166.23 
+    <path clip-path="url(#pcda4d30328)" d="M 75.64817 148.95 
+L 146.583443 148.95 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_12">
-    <path clip-path="url(#p4c46eca9b5)" d="M 43.252534 170.78625 
-L 43.252534 161.67375 
+    <path clip-path="url(#pcda4d30328)" d="M 43.252534 153.50625 
+L 43.252534 144.39375 
 " style="fill:none;stroke:#000000;stroke-linecap:square;"/>
    </g>
    <g id="line2d_13">
-    <path clip-path="url(#p4c46eca9b5)" d="M 146.583443 170.78625 
-L 146.583443 161.67375 
+    <path clip-path="url(#pcda4d30328)" d="M 146.583443 153.50625 
+L 146.583443 144.39375 
 " style="fill:none;stroke:#000000;stroke-linecap:square;"/>
    </g>
    <g id="line2d_14"/>
    <g id="line2d_15">
-    <path clip-path="url(#p4c46eca9b5)" d="M 66.152898 134.8425 
-L 66.152898 116.6175 
-L 86.81908 116.6175 
-L 86.81908 134.8425 
-L 66.152898 134.8425 
+    <path clip-path="url(#pcda4d30328)" d="M 66.152898 117.5625 
+L 66.152898 99.3375 
+L 86.81908 99.3375 
+L 86.81908 117.5625 
+L 66.152898 117.5625 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_16">
-    <path clip-path="url(#p4c46eca9b5)" d="M 66.152898 125.73 
-L 41.018352 125.73 
+    <path clip-path="url(#pcda4d30328)" d="M 66.152898 108.45 
+L 41.018352 108.45 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_17">
-    <path clip-path="url(#p4c46eca9b5)" d="M 86.81908 125.73 
-L 185.12308 125.73 
+    <path clip-path="url(#pcda4d30328)" d="M 86.81908 108.45 
+L 185.12308 108.45 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_18">
-    <path clip-path="url(#p4c46eca9b5)" d="M 41.018352 130.28625 
-L 41.018352 121.17375 
+    <path clip-path="url(#pcda4d30328)" d="M 41.018352 113.00625 
+L 41.018352 103.89375 
 " style="fill:none;stroke:#000000;stroke-linecap:square;"/>
    </g>
    <g id="line2d_19">
-    <path clip-path="url(#p4c46eca9b5)" d="M 185.12308 130.28625 
-L 185.12308 121.17375 
+    <path clip-path="url(#pcda4d30328)" d="M 185.12308 113.00625 
+L 185.12308 103.89375 
 " style="fill:none;stroke:#000000;stroke-linecap:square;"/>
    </g>
    <g id="line2d_20"/>
    <g id="line2d_21">
-    <path clip-path="url(#p4c46eca9b5)" d="M 90.170352 94.3425 
-L 90.170352 76.1175 
-L 115.304898 76.1175 
-L 115.304898 94.3425 
-L 90.170352 94.3425 
+    <path clip-path="url(#pcda4d30328)" d="M 90.170352 77.0625 
+L 90.170352 58.8375 
+L 115.304898 58.8375 
+L 115.304898 77.0625 
+L 90.170352 77.0625 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_22">
-    <path clip-path="url(#p4c46eca9b5)" d="M 90.170352 85.23 
-L 46.603807 85.23 
+    <path clip-path="url(#pcda4d30328)" d="M 90.170352 67.95 
+L 46.603807 67.95 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_23">
-    <path clip-path="url(#p4c46eca9b5)" d="M 115.304898 85.23 
-L 190.149989 85.23 
+    <path clip-path="url(#pcda4d30328)" d="M 115.304898 67.95 
+L 190.149989 67.95 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_24">
-    <path clip-path="url(#p4c46eca9b5)" d="M 46.603807 89.78625 
-L 46.603807 80.67375 
+    <path clip-path="url(#pcda4d30328)" d="M 46.603807 72.50625 
+L 46.603807 63.39375 
 " style="fill:none;stroke:#000000;stroke-linecap:square;"/>
    </g>
    <g id="line2d_25">
-    <path clip-path="url(#p4c46eca9b5)" d="M 190.149989 89.78625 
-L 190.149989 80.67375 
+    <path clip-path="url(#pcda4d30328)" d="M 190.149989 72.50625 
+L 190.149989 63.39375 
 " style="fill:none;stroke:#000000;stroke-linecap:square;"/>
    </g>
    <g id="line2d_26"/>
    <g id="line2d_27">
-    <path clip-path="url(#p4c46eca9b5)" d="M 119.773261 53.8425 
-L 119.773261 35.6175 
-L 147.84017 35.6175 
-L 147.84017 53.8425 
-L 119.773261 53.8425 
+    <path clip-path="url(#pcda4d30328)" d="M 119.773261 36.5625 
+L 119.773261 18.3375 
+L 147.84017 18.3375 
+L 147.84017 36.5625 
+L 119.773261 36.5625 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_28">
-    <path clip-path="url(#p4c46eca9b5)" d="M 119.773261 44.73 
-L 42.693989 44.73 
+    <path clip-path="url(#pcda4d30328)" d="M 119.773261 27.45 
+L 42.693989 27.45 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_29">
-    <path clip-path="url(#p4c46eca9b5)" d="M 147.84017 44.73 
-L 250.472898 44.73 
+    <path clip-path="url(#pcda4d30328)" d="M 147.84017 27.45 
+L 250.472898 27.45 
 " style="fill:none;stroke:#1f77b4;stroke-linecap:square;"/>
    </g>
    <g id="line2d_30">
-    <path clip-path="url(#p4c46eca9b5)" d="M 42.693989 49.28625 
-L 42.693989 40.17375 
+    <path clip-path="url(#pcda4d30328)" d="M 42.693989 32.00625 
+L 42.693989 22.89375 
 " style="fill:none;stroke:#000000;stroke-linecap:square;"/>
    </g>
    <g id="line2d_31">
-    <path clip-path="url(#p4c46eca9b5)" d="M 250.472898 49.28625 
-L 250.472898 40.17375 
+    <path clip-path="url(#pcda4d30328)" d="M 250.472898 32.00625 
+L 250.472898 22.89375 
 " style="fill:none;stroke:#000000;stroke-linecap:square;"/>
    </g>
    <g id="line2d_32"/>
    <g id="line2d_33">
-    <path clip-path="url(#p4c46eca9b5)" d="M 64.477261 175.3425 
-L 64.477261 157.1175 
+    <path clip-path="url(#pcda4d30328)" d="M 64.477261 158.0625 
+L 64.477261 139.8375 
 " style="fill:none;stroke:#2ca02c;stroke-linecap:square;"/>
    </g>
    <g id="line2d_34">
-    <path clip-path="url(#p4c46eca9b5)" d="M 75.64817 134.8425 
-L 75.64817 116.6175 
+    <path clip-path="url(#pcda4d30328)" d="M 75.64817 117.5625 
+L 75.64817 99.3375 
 " style="fill:none;stroke:#2ca02c;stroke-linecap:square;"/>
    </g>
    <g id="line2d_35">
-    <path clip-path="url(#p4c46eca9b5)" d="M 102.458352 94.3425 
-L 102.458352 76.1175 
+    <path clip-path="url(#pcda4d30328)" d="M 102.458352 77.0625 
+L 102.458352 58.8375 
 " style="fill:none;stroke:#2ca02c;stroke-linecap:square;"/>
    </g>
    <g id="line2d_36">
-    <path clip-path="url(#p4c46eca9b5)" d="M 132.061261 53.8425 
-L 132.061261 35.6175 
+    <path clip-path="url(#pcda4d30328)" d="M 132.061261 36.5625 
+L 132.061261 18.3375 
 " style="fill:none;stroke:#2ca02c;stroke-linecap:square;"/>
-   </g>
-  </g>
-  <g id="text_11">
-   <!-- 82 words corresponds to a 1-point score gain -->
-   <defs>
-    <path d="M 23.5 57.703125 
-C 30 57.703125 32.40625 53.296875 32.40625 48.59375 
-C 32.40625 43.203125 27.09375 38.40625 24.296875 36.40625 
-L 21.203125 38.203125 
-C 14.90625 42.296875 14.203125 46 14.203125 49.09375 
-C 14.203125 53.796875 17.5 57.703125 23.5 57.703125 
-z
-M 39.796875 48.5 
-C 39.796875 55.703125 34 61 24.09375 61 
-C 13.90625 61 6.703125 55 6.703125 47.296875 
-C 6.703125 41.703125 9.796875 36.703125 15.5 33.40625 
-L 17.5 32.296875 
-C 15 30.40625 13 28.796875 10.5 26.59375 
-C 6.40625 23 3.90625 18.5 3.90625 14.59375 
-C 3.90625 4.40625 12 -0.90625 22.59375 -0.90625 
-C 35.703125 -0.90625 42.796875 8.59375 42.796875 16.203125 
-C 42.796875 22 39.59375 26.40625 34.09375 30 
-L 28 34 
-C 32.5 37 39.796875 42.09375 39.796875 48.5 
-z
-M 22.796875 2.40625 
-C 18.203125 2.40625 11.703125 5.59375 11.703125 14.59375 
-C 11.703125 17.59375 12.5 24.296875 21.09375 30 
-L 25.703125 27.09375 
-C 31.90625 23.203125 34.5 18.796875 34.5 14.09375 
-C 34.5 4.40625 27.40625 2.40625 22.796875 2.40625 
-z
-" id="LinBiolinumO-56"/>
-    <path d="M 16.203125 29.40625 
-C 18.40625 34.703125 24.296875 39.296875 28.203125 39.296875 
-C 35 39.296875 38.5 33.09375 38.5 21.796875 
-C 38.5 13.59375 36.203125 3 25.5 3 
-C 23.90625 3 19.703125 3.40625 16.203125 7.5 
-z
-M 16.203125 35.203125 
-L 16.203125 42.5 
-C 16.203125 43.203125 16 43.5 15.59375 43.5 
-C 13.296875 43 9.703125 42.90625 7.5 43.203125 
-L 7.296875 42.90625 
-C 8 38.5 8.203125 31 8.203125 23.5 
-L 8.203125 -3.203125 
-C 8.203125 -10.703125 8 -17.90625 7.296875 -23.203125 
-L 7.5 -23.5 
-C 8.703125 -23.296875 11 -23.203125 12.203125 -23.203125 
-C 13.40625 -23.203125 15.703125 -23.296875 16.90625 -23.5 
-L 17.09375 -23.203125 
-C 16.296875 -17.5 16.203125 -10.796875 16.203125 -3.203125 
-L 16.203125 1.203125 
-C 18.796875 -0.203125 22.5 -1 26.09375 -1 
-C 39.296875 -1 47.296875 9 47.296875 23.09375 
-C 47.296875 33.703125 41.09375 43.90625 29.90625 43.90625 
-C 26 43.90625 21 41.90625 16.40625 34.90625 
-z
-" id="LinBiolinumO-112"/>
-    <path d="M 31 22.5 
-L 30.59375 10.59375 
-C 30.59375 9.296875 30 8.59375 29.203125 8 
-C 26.40625 5.90625 23 4.09375 20 4.09375 
-C 15.5 4.09375 12.59375 7.09375 12.59375 10.203125 
-C 12.59375 14.703125 14.703125 18.09375 22.5 20.203125 
-z
-M 31 4.796875 
-C 32.09375 0.796875 35.09375 -1 38.796875 -1 
-C 41.296875 -1 44.40625 -0.40625 46.703125 2.09375 
-L 46 4.5 
-C 44.90625 4.09375 44 4 43.296875 4 
-C 42.296875 4 41 4.203125 40.296875 4.796875 
-C 39.296875 5.703125 38.703125 8.09375 38.703125 12.59375 
-C 38.703125 15.5 39 26.59375 39 27.703125 
-C 39 41.203125 30.09375 43.90625 22.5 43.90625 
-C 14.90625 43.90625 10.296875 40.203125 7.796875 38.09375 
-L 7.5 37.703125 
-L 9.203125 31 
-L 10.5 30.90625 
-C 13.296875 35.40625 16.703125 39.40625 21.5 39.40625 
-C 25.09375 39.40625 31.09375 38.90625 31.09375 27.59375 
-C 31.09375 26.90625 30.703125 26.5 30.40625 26.40625 
-L 21.09375 24.296875 
-C 10.90625 22 4.5 16.59375 4.5 9.796875 
-C 4.5 2.40625 9.59375 -1 17 -1 
-C 22.5 -1 25.296875 0.296875 30.59375 4.796875 
-z
-" id="LinBiolinumO-97"/>
-    <path d="M 27.40625 23.59375 
-C 28.703125 23.59375 30.09375 26.09375 30.09375 27.203125 
-C 30.09375 28.09375 29.703125 29 28.703125 29 
-L 5.796875 29 
-C 4.59375 29 3.296875 26.90625 3.296875 25.296875 
-C 3.296875 24.40625 3.90625 23.59375 4.796875 23.59375 
-z
-" id="LinBiolinumO-45"/>
-    <path d="M 8 59.703125 
-C 8 57 10.40625 54.59375 13.09375 54.59375 
-C 15.796875 54.59375 18.203125 57 18.203125 59.703125 
-C 18.203125 62.40625 15.796875 64.796875 13.09375 64.796875 
-C 10.40625 64.796875 8 62.40625 8 59.703125 
-z
-M 9 23.5 
-L 9 18 
-C 9 10.5 8.796875 5.40625 8.09375 0 
-L 8.296875 -0.296875 
-C 9.5 -0.09375 11.796875 0 13 0 
-C 14.203125 0 16.5 -0.09375 17.703125 -0.296875 
-L 17.90625 0 
-C 17.09375 5.59375 17 10.40625 17 18 
-L 17 25.09375 
-C 17 32.59375 17.203125 36.203125 17.90625 42.296875 
-C 17.90625 43.203125 17.703125 43.296875 17 43.296875 
-C 14.703125 43 10.40625 43 8.296875 43.203125 
-L 8.09375 42.90625 
-C 8.703125 38.59375 9 31 9 23.5 
-z
-" id="LinBiolinumO-105"/>
-   </defs>
-   <g transform="translate(35.634375 15.575625)scale(0.12 -0.12)">
-    <use xlink:href="#LinBiolinumO-56"/>
-    <use x="46.499985" xlink:href="#LinBiolinumO-50"/>
-    <use x="92.999969" xlink:href="#LinBiolinumO-32"/>
-    <use x="117.999954" xlink:href="#LinBiolinumO-119"/>
-    <use x="190.199936" xlink:href="#LinBiolinumO-111"/>
-    <use x="240.199921" xlink:href="#LinBiolinumO-114"/>
-    <use x="275.699905" xlink:href="#LinBiolinumO-100"/>
-    <use x="328.69989" xlink:href="#LinBiolinumO-115"/>
-    <use x="368.299881" xlink:href="#LinBiolinumO-32"/>
-    <use x="393.299866" xlink:href="#LinBiolinumO-99"/>
-    <use x="436.19986" xlink:href="#LinBiolinumO-111"/>
-    <use x="486.199844" xlink:href="#LinBiolinumO-114"/>
-    <use x="521.699829" xlink:href="#LinBiolinumO-114"/>
-    <use x="557.199814" xlink:href="#LinBiolinumO-101"/>
-    <use x="602.499802" xlink:href="#LinBiolinumO-115"/>
-    <use x="642.099792" xlink:href="#LinBiolinumO-112"/>
-    <use x="694.39978" xlink:href="#LinBiolinumO-111"/>
-    <use x="744.399765" xlink:href="#LinBiolinumO-110"/>
-    <use x="798.299759" xlink:href="#LinBiolinumO-100"/>
-    <use x="851.299744" xlink:href="#LinBiolinumO-115"/>
-    <use x="890.899734" xlink:href="#LinBiolinumO-32"/>
-    <use x="915.899719" xlink:href="#LinBiolinumO-116"/>
-    <use x="949.899704" xlink:href="#LinBiolinumO-111"/>
-    <use x="999.899689" xlink:href="#LinBiolinumO-32"/>
-    <use x="1024.899673" xlink:href="#LinBiolinumO-97"/>
-    <use x="1072.999664" xlink:href="#LinBiolinumO-32"/>
-    <use x="1097.999649" xlink:href="#LinBiolinumO-49"/>
-    <use x="1144.499634" xlink:href="#LinBiolinumO-45"/>
-    <use x="1177.799622" xlink:href="#LinBiolinumO-112"/>
-    <use x="1230.099609" xlink:href="#LinBiolinumO-111"/>
-    <use x="1280.099594" xlink:href="#LinBiolinumO-105"/>
-    <use x="1306.099579" xlink:href="#LinBiolinumO-110"/>
-    <use x="1359.999573" xlink:href="#LinBiolinumO-116"/>
-    <use x="1393.999557" xlink:href="#LinBiolinumO-32"/>
-    <use x="1418.999542" xlink:href="#LinBiolinumO-115"/>
-    <use x="1458.599533" xlink:href="#LinBiolinumO-99"/>
-    <use x="1501.499527" xlink:href="#LinBiolinumO-111"/>
-    <use x="1551.499512" xlink:href="#LinBiolinumO-114"/>
-    <use x="1586.999496" xlink:href="#LinBiolinumO-101"/>
-    <use x="1632.299484" xlink:href="#LinBiolinumO-32"/>
-    <use x="1657.299469" xlink:href="#LinBiolinumO-103"/>
-    <use x="1707.199463" xlink:href="#LinBiolinumO-97"/>
-    <use x="1755.299454" xlink:href="#LinBiolinumO-105"/>
-    <use x="1781.299438" xlink:href="#LinBiolinumO-110"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p4c46eca9b5">
-   <rect height="162" width="230.4" x="30.545625" y="24.48"/>
+  <clipPath id="pcda4d30328">
+   <rect height="162" width="230.4" x="30.545625" y="7.2"/>
   </clipPath>
  </defs>
 </svg>
