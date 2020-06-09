@@ -1,2 +1,2 @@
-from .eda import summary
-from .eda import summary_group
+from .summary import summary
+from .summary import summary_group
