@@ -4,14 +4,6 @@
 # to 3 (best).
 
 import sys
-import pandas as pd
-import numpy as np
-from joblib import load
-from sklearn.svm import SVC
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-import spacy
-import re
 
 freq_col = "freq_per_100000"
 pad_shape = 1000
@@ -109,10 +101,10 @@ def run_model(essay, metrics, model, modeltype="nn"):
         X_vector = [word2idx[token.text] for token in nlp.tokenizer(essay)]
         X_vector = pad_sequences([X_vector], maxlen=pad_shape)
 
-        return model.predict([X_vector, X_meta_pca])
+        return model.predict([X_vector, X_meta_pca]).argmax()
 
     elif modeltype == "svm":
-        return model.predict(X_meta_sc)
+        return int(model.predict(X_meta_sc)[0])
 
 
 if __name__ == '__main__':
@@ -121,10 +113,18 @@ if __name__ == '__main__':
         if essayfile == '-':
             essay = sys.stdin.read().strip()
         else:
-            with open(essay, "r") as infile:
+            with open(essayfile, "r") as infile:
                 essay = infile.read().strip()
     except IndexError:
         essay = input("Type your essay:\n")
+
+    import pandas as pd
+    import numpy as np
+    from joblib import load
+    from tensorflow.keras.models import load_model
+    from tensorflow.keras.preprocessing.sequence import pad_sequences
+    import spacy
+    import re
 
     print("Loading NLP data...")
     nlp = spacy.load("en")
@@ -134,11 +134,11 @@ if __name__ == '__main__':
     ss = load("scaler.bin")
     pca = load("pca.bin")
 
-    model = load_model("model.keras")
-    # model = load("model.svm")
+    # model = load_model("model.keras")
+    model = load("model.svm")
 
     print("Preprocessing essay...")
     metrics = preprocess(essay)
 
     print("Running model...")
-    print("Score:", run_model(essay, metrics, model, modeltype="nn").argmax())
+    print("Score:", run_model(essay, metrics, model, modeltype="svm"))
